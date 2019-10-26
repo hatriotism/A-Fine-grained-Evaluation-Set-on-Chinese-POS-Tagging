@@ -15,13 +15,13 @@ We propose a Fine-grained evaluation system on Chinese POS Tagging. The focus is
 ## 评测项目概览
 在我们最终确定的70个评测项目中，共有61个不涉及分词问题，有9个涉及分词问题。如下图所示。图中的点表示词性，边表示两个词性之间产生了评测项目；边有方向，由标注不足项指向标注过度项；边可以是双向的，每个方向表示一个评测项目。例如，一条从z指向d的边，即表示评测项目<[z], [d]>。
 
-<img src="image/不涉及分词的评测项目.png" align=center/>
-<img src="image/涉及分词的评测项目.png" align=center/>
+<img src="image/不涉及分词的评测项目.png" width = "60%" height = "60%" align=center/>
+<img src="image/涉及分词的评测项目.png" width = "60%" height = "60%" align=center/>
 
 ## 评测集长什么样？
 在我们的评测集中，“#”引导的是一级评测项目，共70个；“##”引导的是词例，即二级评测项目，共2326个；词例下是该词的例句，即具体的评测试题，一般每个词例有1~4个例句。如下图所示。
 
-<img src="image/节选.png" width = "50%" height = "50%" div align=center/>
+<img src="image/节选.png" width = "30%" height = "30%" div align=center/>
 
 ## 优势
 我们的评测体系将评测项目精细到了具体的“标注结果对应组”，从而可以对评测语料的组织扩展和被测程序的改进产生启发价值。
