@@ -43,7 +43,7 @@ We propose a Fine-grained evaluation system on Chinese POS Tagging. The focus is
 
 > “没等董志成自我介绍完...”<br>
 “...过马路要左右看，要等...”<br>
-“船舶业不等不靠，不喊不叫，埋头苦干”<br>
+“...船舶业不等不靠，不喊不叫，埋头苦干...”<br>
 “...克服等、靠、要思想...”
 
 的`等`都应该是动词，但容易被错标为助词。
@@ -55,11 +55,13 @@ We propose a Fine-grained evaluation system on Chinese POS Tagging. The focus is
 3. 方便被测程序的改进。能快速定位错误，并针对性地扩充训练语料，或者针对性地引入规则，从而使针对性地改进被测程序成为可能。
 
 ## 相关文献
+关于评测体系及评测算法的更多细节，请参见以下论文：
+
 [唐乾桐, 常宝宝, 詹卫东. 精细化的中文词性标注评测集的研制, 2019](http://cips-cl.org/static/anthology/CCL-2019/CCL-19-051.pdf)
 
 ## 相关链接
 [北京大学中文系博雅读书会·语法理论与语言工程讨论组](http://ccl.pku.edu.cn/seminar/)
 
-[北京大学中国语言学研究中心](http://ccl.pku.edu.cn)
-
 [北京大学计算语言学教育部重点实验室](http://klcl.pku.edu.cn)
+
+[北京大学中国语言学研究中心](http://ccl.pku.edu.cn)
